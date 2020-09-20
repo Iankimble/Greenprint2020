@@ -2,7 +2,12 @@
   command = "npm run build"
   publish="build"
 
-  [[redirects]]
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[context.production.environment]
+  TOML_ENV_VAR = "From netlify.toml"
+  REACT_APP_BUDGET_APP_BLOG = https://greenprint-strapi-server.herokuapp.com
+  REACT_APP_BUDGET_APP_SERVER = https://greenprint-2020-server.herokuapp.com
