@@ -80,8 +80,10 @@ class SingleBlogItem extends Component {
               <h1>{this.state.singlePost.title}</h1>
               <h4>{this.state.singlePost.subtitle}</h4>
               <img
-                src={`https://greenprint-strapi-server.herokuapp.com
-                  ${this.state.imageUrl}`}
+                src={
+                  "https://greenprint-strapi-server.herokuapp.com" +
+                  this.state.imageUrl
+                }
                 alt=""
                 style={{
                   display: "block",
