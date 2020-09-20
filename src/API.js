@@ -1,7 +1,7 @@
 // retrieve JSON blog data from Strapi server
 
 export const getBlogContent = () => {
-  return fetch(`${process.env.REACT_APP_BUDGET_APP_BLOG}finance-blogs`).then(
+  return fetch(`${process.env.REACT_APP_BUDGET_APP_BLOG}/finance-blogs`).then(
     (res) => {
       if (res.status >= 400) {
         throw new Error("could not return data");
@@ -13,7 +13,7 @@ export const getBlogContent = () => {
 
 export const getSinglePost = (postId) => {
   return fetch(
-    `${process.env.REACT_APP_BUDGET_APP_BLOG}finance-blogs/${postId}`
+    `${process.env.REACT_APP_BUDGET_APP_BLOG}/finance-blogs/${postId}`
   ).then((res) => {
     if (res.status >= 400) {
       throw new Error("could not return data");
