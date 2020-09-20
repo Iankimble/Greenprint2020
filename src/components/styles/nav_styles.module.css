@@ -1,0 +1,70 @@
+/* Custom styling for Calculator dropdown nav button*/
+
+.calc {
+  background-color: transparent !important;
+  /* color: #007bff !important; */
+  border: none !important;
+  color: white !important;
+  border: none !important;
+  font-size: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.calc:hover {
+  background-color: transparent !important;
+  color: #ffbb33 !important;
+  border: none !important;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.calc:active {
+  background-color: transparent !important;
+  color: #17a2b8 !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.calc::after {
+  background-color: transparent !important;
+  color: #17a2b8 !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.calc::selection {
+  background-color: transparent !important;
+  color: #17a2b8 !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.calc:default {
+  background-color: transparent !important;
+  color: #17a2b8 !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.calc:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.homeButton {
+  text-decoration: none;
+  color: white !important;
+  opacity: 0.6;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+.homeButton:hover {
+  text-decoration: none;
+  color: #17a2b8 !important;
+  opacity: 0.6;
+  opacity: 1;
+}

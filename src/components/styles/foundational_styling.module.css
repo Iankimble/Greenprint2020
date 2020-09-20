@@ -1,0 +1,88 @@
+.landingBgTheme {
+  background-color: transparent;
+  height: 75vh;
+}
+
+.submitButton {
+  background-color: #ffbb33;
+  border: none;
+  transition: 0.5s;
+}
+
+.submitButton:focus {
+  background-color: #ffbb33;
+  border: none;
+  transition: 0.5s;
+}
+
+.submitButton:hover {
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+}
+
+.demoImage {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) {
+  .demoImage {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .welcomeText {
+    padding: 15px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 801px) {
+  .demoImage {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .demoImage {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .welcomeText {
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .demoImage {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .welcomeText {
+    padding: 15px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+/* Media query to keep form fixed when user jumps from step to step*/
+/* Will only apply when on desktop view*/
+@media (min-width: 1281px) {
+  .budgetFormFit {
+    height: 60vh;
+    background-color: transparent;
+  }
+}
+
+.budgetFormFit {
+  background-color: transparent;
+}
