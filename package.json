@@ -25,6 +25,7 @@
     "react-scripts": "3.4.1",
     "react-spinners": "^0.9.0",
     "react-string-replace": "^0.4.4",
+    "serve": "^11.3.2",
     "validator": "^13.1.1"
   },
   "scripts": {
