@@ -355,10 +355,8 @@ class Budget extends Component {
                     />
                     <br />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Dignissim diam quis enim lobortis scelerisque
-                      fermentum dui faucibus.
+                      Above is your visual breakdown of your expenses to gross
+                      income based off the information provided.
                     </p>
                   </Col>
                   <Col style={{}} xs={12} sm={12} md={6} lg={6} xl={6}>
