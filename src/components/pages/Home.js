@@ -56,6 +56,8 @@ const Home = () => (
         </Row>
       </Jumbotron>
     </Container>
+    <br />
+    <br />
   </div>
 );
 export default Home;
