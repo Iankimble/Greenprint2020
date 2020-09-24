@@ -4,11 +4,8 @@ _* Financial literacy app*_
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5ce9dbdd-4ce5-46fb-a0ad-fd2eb2b8fa4e/deploy-status)](https://app.netlify.com/sites/keen-cray-2feb6f/deploys)
 
-![Greenprint Homepage](/gitImg/Greenprint1.png=50x)
-Format:![Alt Text](greenprint homepage)
-
-![Greenprint Homepage](/gitImg/Greenprint2.PNG=50x)
-Format:![Alt Text](greenprint calculator)
+<img src ='./gitImg/Greenprint1.png' alt= 'Greenprint Homepage' width='50px' height='50px' />
+<img src ='/gitImg/Greenprint2.PNG' alt= 'Greenprint Budget Calculator' width='50px' height='50px' />
 
 ### Table of Contents
 
