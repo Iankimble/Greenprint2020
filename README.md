@@ -1,6 +1,6 @@
 # Greenprint
 
-_* Financial literacy app*_
+****Financial literacy app****
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5ce9dbdd-4ce5-46fb-a0ad-fd2eb2b8fa4e/deploy-status)](https://app.netlify.com/sites/keen-cray-2feb6f/deploys)
 
@@ -37,11 +37,11 @@ health.
 
 To run application you will need Node and NPM installed on your machine.
 
-To run test build of appliation: npm test
+To run test build of appliation: **npm test**
 
-To start server: npm start (application will run on at http://localhost:3000 when running locally)
+To start server: **npm start** (application will run on at http://localhost:3000 when running locally)
 
-To create a production build: npm run build
+To create a production build: **npm run build**
 
 ### Tools and Technology
 
@@ -54,9 +54,9 @@ This application is intended to provide quick figures via the calculators and ea
 
 ### Features
 
-1. _Budget calculator_: Users are guided through a step form answering questions pertaining to their income and expenses. From the answers a calculation is done presenting the user with a breakdown of their income to expenses. Once completed, the user can elect to have a PDF version of their report sent via email and/ or provide additional contact information to our email account to review their budget report with a trained financial advisor.
+1. ****Budget calculator****: Users are guided through a step form answering questions pertaining to their income and expenses. From the answers a calculation is done presenting the user with a breakdown of their income to expenses. Once completed, the user can elect to have a PDF version of their report sent via email and/ or provide additional contact information to our email account to review their budget report with a trained financial advisor.
 
-2. _Finance Blog_: Users can review videos and articles pertaining to different financial concpets written by trained professionals. Currently _Eric Murchinson_ is the financial adivsor creating content.
+2. ****Finance Blog****: Users can review videos and articles pertaining to different financial concpets written by trained professionals. Currently _Eric Murchinson_ is the financial adivsor creating content.
 
 ### Todos
 
