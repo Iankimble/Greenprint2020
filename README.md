@@ -1,8 +1,14 @@
 # Greenprint
 
-_** Financial literacy app**_
+_* Financial literacy app*_
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5ce9dbdd-4ce5-46fb-a0ad-fd2eb2b8fa4e/deploy-status)](https://app.netlify.com/sites/keen-cray-2feb6f/deploys)
+
+![Greenprint Homepage](/gitImg/Greenprint1.png)
+Format:![Alt Text](greenprint homepage)
+
+![Greenprint Homepage](/gitImg/Greenprint2.PNG)
+Format:![Alt Text](greenprint calculator)
 
 ### Table of Contents
 
@@ -60,3 +66,5 @@ This application is intended to provide quick figures via the calculators and ea
 1. PDF bug: When a budget report is completed, the users information is passed into state, then packaged as an object, which is then passed through the function that sends the data to the server. On the server side I am using a packaged called "HTML-PDF" which will take data and format it into a PDF. Currently, the object is being sent successfully but there are portions of the data the comeback as undefined. I'm still investigating the cause of this.
 
 2. Other calculators: the website features several other calculators; networth, goal, 401k, student loan interest, and tution calculator. Some are more along than others but still require a bit of thought from a programatic standpoint as well as guidance from my partner, Eric.
+
+3. Strapi images: Because the strapi blog is running on a heroku, the server will go to sleep when not in use. Because of this when the application boots up and runs again the images that were saved before get lost in the process.
